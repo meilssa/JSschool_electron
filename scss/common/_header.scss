@@ -1,0 +1,37 @@
+header{
+    width: 100%;
+    height: 8vh;
+    background-color: white; 
+    border-bottom: 1px solid black;
+    .h_txtBox{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .h_title{
+            cursor: pointer;
+        }
+        .h_li_txt{
+            position: relative;
+            width: 25%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: #82D580;
+            :hover{
+                color: #4a7949;
+                text-decoration: underline;
+            }
+            span{
+                width: 3px;
+                height: 3px;
+                background-color: black;
+                border-radius: 50%;
+            }
+        }
+    }    
+}
